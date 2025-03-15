@@ -27,7 +27,7 @@ function App() {
 
   const weeklyLogs = [
     {
-      week: "Week 1.a",
+      week: "WEEK 1.a(PESE).pdf",
       summary: "Self introduction based on Sixer Theory",
       details: [
         `Hello everyone, my name is Harshita Gogia. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
@@ -52,7 +52,7 @@ Thank you for your time.`
       pdf: "/pdf/WEEK1.a(PESE).pdf"
     },
     {
-      week: "Week 1.b",
+      week: "Week 1.b(PESE).pdf",
       summary: "Self introduction based on 5 Ring Theory",
       details: [
         `Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
@@ -69,13 +69,13 @@ Thank you for your time.`
       pdf: "/pdf/WEEK1.b(PESE).pdf"
     },
     {
-      week: "Week 3",
+      week: "PESE RESUME.pdf",
       summary: "How to write resume",
       link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
       pdf: "/pdf/PESE RESUME.pdf"
     },
     {
-      week: "Assignment",
+      week: "Movie Review Assignment.pdf",
       summary: "Movie Review- Pursuit of Happyness",
       link: "https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
       pdf: "/pdf/Movie Review Assignment.pdf"
