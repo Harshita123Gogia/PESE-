@@ -49,10 +49,10 @@ I believe in continuous learning, preserverance, and hard work. I am excited abo
 Thank you for your time.`
       ],
       link: "https://youtube.com/shorts/d-eHyNb5luk?feature=share",
-      pdf: "/pdf/WEEK1.a(PESE).pdf"
+      pdf: "/pdf/WEEK 1.a(PESE).pdf"
     },
     {
-      week: "Week 1.b(PESE).pdf",
+      week: "WEEK 1.b(PESE).pdf",
       summary: "Self introduction based on 5 Ring Theory",
       details: [
         `Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
@@ -66,7 +66,7 @@ I believe in dedication, perseverance, and continuous learning, and I am eager t
 Thank you for your time.`
       ],
       link: "https://youtube.com/shorts/yxUbfe8mp1c?feature=share",
-      pdf: "/pdf/WEEK1.b(PESE).pdf"
+      pdf: "/pdf/WEEK 1.b(PESE).pdf"
     },
     {
       week: "PESE RESUME.pdf",
