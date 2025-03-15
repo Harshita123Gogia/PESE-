@@ -1,6 +1,5 @@
-import { useState } from 'react';
-// Update the import line at the top
 import { FileText, Linkedin, Mail, MapPin, Phone, Youtube } from 'lucide-react';
+import { useState } from 'react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');
@@ -84,9 +83,9 @@ Thank you for your time.`
   ];
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#FFD1DC' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#355C7D' }}>
       {/* Navigation */}
-      <nav className="fixed top-0 w-full shadow-sm z-50" style={{ backgroundColor: '#FFC0CB' }}>
+      <nav className="fixed top-0 w-full shadow-sm z-50" style={{ backgroundColor: '#725A7A' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex space-x-8">
@@ -95,8 +94,8 @@ Thank you for your time.`
                   key={section}
                   onClick={() => setActiveSection(section)}
                   className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeSection === section
-                      ? 'border-[#FFD1DC] text-white'
-                      : 'border-transparent text-[#FFD1DC] hover:border-[#FF69B4]hover:text-[#FFD1DC]'
+                      ? 'border-[#C56C86] text-white'
+                      : 'border-transparent text-[#FFFFFF] hover:border-[#FF7582] hover:text-[#FFFFFF]'
                     }`}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
@@ -114,33 +113,33 @@ Thank you for your time.`
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Profile */}
             <div className="lg:col-span-1">
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
+              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
                 <div className="text-center">
                   <img
-                    className="h-32 w-32 rounded-full mx-auto ring-4 ring-[#FF69B4]"
+                    className="h-32 w-32 rounded-full mx-auto ring-4 ring-[#C56C86]"
                     src="/img/potr.jpg"
                     alt="Profile"
                   />
-                  <h2 className="mt-4 text-xl font-bold text-[]">Harshita Gogia</h2>
-                  <p className="text-sm text-[#FFC0CB]">Software Engineer</p>
+                  <h2 className="mt-4 text-xl font-bold text-[#355C7D]">Harshita Gogia</h2>
+                  <p className="text-sm text-[#725A7A]">Software Engineer</p>
                 </div>
 
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center space-x-3">
-                    <Phone className="h-5 w-5 text-[#FF69B4]" />
-                    <span className="text-sm text-[#FFC0CB]">+91-639-874-8892</span>
+                    <Phone className="h-5 w-5 text-[#C56C86]" />
+                    <span className="text-sm text-[#725A7A]">+91-639-874-8892</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Mail className="h-5 w-5 text-[#FF69B4]" />
-                    <span className="text-sm text-[#FFC0CB]">hgogia8656@gmail.com</span>
+                    <Mail className="h-5 w-5 text-[#C56C86]" />
+                    <span className="text-sm text-[#725A7A]">hgogia8656@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Linkedin className="h-5 w-5 text-[#FF69B4]" />
-                    <span className="text-sm text-[#FFC0CB]">Harshita Gogia</span>
+                    <Linkedin className="h-5 w-5 text-[#C56C86]" />
+                    <span className="text-sm text-[#725A7A]">Harshita Gogia</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <MapPin className="h-5 w-5 text-[#FF69B4]" />
-                    <span className="text-sm text-[#FFC0CB]">Dehradun, India</span>
+                    <MapPin className="h-5 w-5 text-[#C56C86]" />
+                    <span className="text-sm text-[#725A7A]">Dehradun, India</span>
                   </div>
                 </div>
               </div>
@@ -148,30 +147,30 @@ Thank you for your time.`
 
             {/* Summary and Education */}
             <div className="lg:col-span-2 space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
-                <h3 className="text-lg font-semibold text-[#FFC0CB]">About Me</h3>
-                <p className="mt-4 text-[#FFC0CB]">
+              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
+                <h3 className="text-lg font-semibold text-[#725A7A]">About Me</h3>
+                <p className="mt-4 text-[#725A7A]">
                 A tech enthusiast with a passion for software development, AI, and cloud computing, I have worked on multiple projects, including cloud-based applications and full-stack development. Certified in AWS Cloud Quest and Cloud Practitioner Essentials, I am also an active dancer and athlete, balancing technical expertise with creativity and teamwork.
                 </p>
               </div>
               <div className="flex items-center space-x-3">
-                <FileText className="h-5 w-5 text-[#FF69B4]" />
+                <FileText className="h-5 w-5 text-[#C56C86]" />
                 <a
                   href="/pdf/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-[#FFC0CB] hover:underline"
+                  className="text-sm text-[#725A7A] hover:underline"
                 >
                   View My Resume
                 </a>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
-                <h3 className="text-lg font-semibold text-[#FFC0CB]">Education</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
+                <h3 className="text-lg font-semibold text-[#725A7A]">Education</h3>
                 <div className="mt-4">
-                  <h4 className="font-medium text-[#FFC0CB]">Graphic Era Hill University (2022–2026)</h4>
-                  <p className="text-sm text-[#FFC0CB]">B.Tech in Computer Science — CGPA: 7.5/10</p>
-                  <p className="mt-2 text-sm text-[#FFC0CB]">
+                  <h4 className="font-medium text-[#725A7A]">Graphic Era Hill University (2022–2026)</h4>
+                  <p className="text-sm text-[#725A7A]">B.Tech in Computer Science — CGPA: 7.5/10</p>
+                  <p className="mt-2 text-sm text-[#725A7A]">
                   My academic journey includes hands-on experience in Data Structures & Algorithms, Database Management Systems, Cloud Computing, Object-Oriented Programming, and Full-Stack Development, equipping me with a strong foundation in problem-solving and software engineering.
                   </p>
                 </div>
@@ -183,23 +182,23 @@ Thank you for your time.`
         {/* Projects Section */}
         <section className={`py-12 ${activeSection === 'projects' ? 'block' : 'hidden'}`}>
           <div className="space-y-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
-              <h3 className="text-lg font-semibold text-[#FFC0CB]">Technical Projects</h3>
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
+              <h3 className="text-lg font-semibold text-[#725A7A]">Technical Projects</h3>
               <div className="mt-6 grid grid-cols-1 gap-6">
                 {projects.map((project, index) => (
-                  <div key={index} className="border-l-4 border-[#FFC0CB] pl-4 py-2">
-                    <h4 className="font-medium text-[#FFC0CB]">{project.title}</h4>
-                    <p className="mt-2 text-sm text-[#FFC0CB]">{project.description}</p>
+                  <div key={index} className="border-l-4 border-[#725A7A] pl-4 py-2">
+                    <h4 className="font-medium text-[#725A7A]">{project.title}</h4>
+                    <p className="mt-2 text-sm text-[#725A7A]">{project.description}</p>
                     <div className="mt-3 flex flex-wrap gap-2">
                       {project.tech.map((t, i) => (
-                        <span key={i} className="px-2 py-1 text-xs font-medium bg-[#FFD1DC] text-[#FFC0CB] rounded">
+                        <span key={i} className="px-2 py-1 text-xs font-medium bg-[#FF7582] text-white rounded">
                           {t}
                         </span>
                       ))}
                     </div>
                     <div className="mt-2 flex flex-wrap gap-2">
                       {project.stack.map((s, i) => (
-                        <span key={i} className="px-2 py-1 text-xs font-medium bg-[#FF69B4] text-white rounded">
+                        <span key={i} className="px-2 py-1 text-xs font-medium bg-[#C56C86] text-white rounded">
                           {s}
                         </span>
                       ))}
@@ -209,34 +208,34 @@ Thank you for your time.`
               </div>
           </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
-              <h3 className="text-lg font-semibold text-[#FFC0CB]">Technical Skills</h3>
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
+              <h3 className="text-lg font-semibold text-[#725A7A]">Technical Skills</h3>
               <div className="mt-6 space-y-4">
                 <div>
-                  <h4 className="font-medium text-[#FFC0CB]">Languages</h4>
+                  <h4 className="font-medium text-[#725A7A]">Languages</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {['Python', 'JavaScript', 'C/C++', 'SQL', 'Java'].map((skill, index) => (
-                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#FF69B4] text-white rounded">
+                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#C56C86] text-white rounded">
                         {skill}
                       </span>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-medium text-[#FFC0CB]">Web Development</h4>
+                  <h4 className="font-medium text-[#725A7A]">Web Development</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {['React', 'Node.js'].map((skill, index) => (
-                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#FF69B4] text-white rounded">
+                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#C56C86] text-white rounded">
                         {skill}
                       </span>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-medium text-[#FFC0CB]">Tools</h4>
+                  <h4 className="font-medium text-[#725A7A]">Tools</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {['Git', 'AWS', 'MySQL', 'Linux'].map((skill, index) => (
-                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#FF69B4] text-white rounded">
+                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#C56C86] text-white rounded">
                         {skill}
                       </span>
                     ))}
@@ -245,9 +244,9 @@ Thank you for your time.`
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
-              <h3 className="text-lg font-semibold text-[#FFC0CB]">Achievements</h3>
-              <ul className="mt-4 space-y-3 list-disc list-inside text-[#FFC0CB]">
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
+              <h3 className="text-lg font-semibold text-[#725A7A]">Achievements</h3>
+              <ul className="mt-4 space-y-3 list-disc list-inside text-[#725A7A]">
                 <li>AWS Cloud Quest: Cloud Practitioner-AmazonWeb Services (AWS) Earned: March 2025.</li>
                 <li>AWS Cloud Practitioner Essentials-AmazonWeb Services (AWS) Completed: January 2025.</li>
                 <li>Certificate of Appreciation-Project Showcase Graphic Era Hill University, Nov 2024 Awarded for excellent
@@ -262,38 +261,38 @@ Thank you for your time.`
 
         {/* Weekly Log Section */}
         <section className={`py-12 ${activeSection === 'weekly' ? 'block' : 'hidden'}`}>
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF69B4]">
-            <h3 className="text-lg font-semibold text-[#FFC0CB]">Weekly Progress Log</h3>
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-[#C56C86]">
+            <h3 className="text-lg font-semibold text-[#725A7A]">Weekly Progress Log</h3>
             <div className="mt-6 space-y-6">
               {weeklyLogs.map((log, index) => (
-                <div key={index} className="border-b border-[#FFD1DC] pb-6 last:border-0 last:pb-0">
-                  <h4 className="font-medium text-[#FFC0CB]">{log.week}</h4>
-                  <p className="mt-2 text-[#FFC0CB]">{log.summary}</p>
+                <div key={index} className="border-b border-[#FF7582] pb-6 last:border-0 last:pb-0">
+                  <h4 className="font-medium text-[#725A7A]">{log.week}</h4>
+                  <p className="mt-2 text-[#725A7A]">{log.summary}</p>
                   {log.details && (
-                    <div className="mt-2 text-sm text-[#FFC0CB]">
+                    <div className="mt-2 text-sm text-[#725A7A]">
                       {Array.isArray(log.details)
                         ? log.details.map((detail, i) => <p key={i}>{detail}</p>)
                         : <p>{log.details}</p>}
                     </div>
                   )}
                   {/* Watch Progress Video link */}
-                  <a>
+                  <a
                     href={log.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 inline-flex items-center text-sm text-[#FFC0CB] hover:text-[#FF69B4]"
-                  
+                    className="mt-2 inline-flex items-center text-sm text-[#725A7A] hover:text-[#FF7582]"
+                  >
                     <Youtube className="h-4 w-4 mr-1" />
                     Watch Progress Video
                   </a>
                   {/* PDF link section added below each week */}
                   <div className="flex items-center space-x-3 mt-2">
-                    <FileText className="h-5 w-5 text-[#FF69B4]" />
+                    <FileText className="h-5 w-5 text-[#C56C86]" />
                     <a
                       href={log.pdf || `/pdf/${log.week.replace(/\s+/g, '').toLowerCase()}.pdf`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-[#FFC0CB] hover:underline"
+                      className="text-sm text-[#725A7A] hover:underline"
                     >
                       {log.week} PDF
                     </a>
