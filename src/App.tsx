@@ -156,7 +156,7 @@ Thank you for your time.`
               <div className="bg-white p-6 rounded-lg shadow-sm border border-[#FF6F61]">
                 <h3 className="text-lg font-semibold text-[#6B5B95]">About Me</h3>
                 <p className="mt-4 text-[#6B5B95]">
-                A tech enthusiast with a passion for software development, AI, and cloud computing, I have worked on multiple projects, including cloud-based applications and full-stack development. Certified in AWS Cloud Quest and Cloud Practitioner Essentials, I am also an active dancer and athlete, balancing technical expertise with creativity and teamwork.
+                A tech enthusiast with a passion for software development, AI and cloud computing. I have worked on multiple projects, including cloud-based applications and full-stack development. Certified in AWS Cloud Quest and Cloud Practitioner Essentials. I am also an active dancer and athlete, balancing technical expertise with creativity and teamwork.
                 </p>
               </div>
               <div className="flex items-center space-x-3">
