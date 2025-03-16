@@ -29,31 +29,30 @@ function App() {
     {
       week: "WEEK 1.a(PESE).pdf",
       summary: "Self introduction based on Sixer Theory",
-      link: "https://youtube.com/shorts/d-eHyNb5luk?feature=share",
+      link: "https://youtube.com/shorts/e6ayluTd7nM?feature=share",
       pdf: "/pdf/WEEK 1.a(PESE).pdf"
     },
     {
       week: "WEEK 1.b(PESE).pdf",
       summary: "Self introduction based on 5 Ring Theory",
-      link: "https://youtube.com/shorts/yxUbfe8mp1c?feature=share",
+      link: "https://youtube.com/shorts/r04B6VCP4MM?feature=share",
       pdf: "/pdf/WEEK 1.b(PESE).pdf"
     },
     {
       week: "WEEK 2.a(PESE).pdf",
       summary: "Self Introduction in 25 words",
-      link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
+      link: "https://youtube.com/shorts/xz8NViI0lZ8?feature=share",
       pdf : "/pdf/WEEK 2.a(PESE).pdf"
     },
     {
       week: "WEEK 2.b(PESE).pdf",
       summary: "How to write resume",
-      link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
+      link: "https://youtube.com/shorts/rbJewiAVSZQ?feature=share",
       pdf: "/pdf/WEEK 2.b(PESE).pdf"
     },
     {
       week: "Movie Review Assignment.pdf",
       summary: "Movie Review- Pursuit of Happyness",
-      link: "https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
       pdf: "/pdf/Movie Review Assignment.pdf"
     }
   ];
