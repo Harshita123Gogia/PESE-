@@ -27,25 +27,25 @@ function App() {
 
   const weeklyLogs = [
     {
-      week: "WEEK 1.a(PESE).pdf",
+      week: "WEEK 1(PESE).pdf",
       summary: "Self introduction based on Sixer Theory",
       link: "https://youtube.com/shorts/e6ayluTd7nM?feature=share",
       pdf: "/pdf/WEEK 1.a(PESE).pdf"
     },
     {
-      week: "WEEK 1.b(PESE).pdf",
+      week: "WEEK 2.a(PESE).pdf",
       summary: "Self introduction based on 5 Ring Theory",
       link: "https://youtube.com/shorts/r04B6VCP4MM?feature=share",
       pdf: "/pdf/WEEK 1.b(PESE).pdf"
     },
     {
-      week: "WEEK 2.a(PESE).pdf",
+      week: "WEEK 2.b(PESE).pdf",
       summary: "Self Introduction in 25 words",
       link: "https://youtube.com/shorts/xz8NViI0lZ8?feature=share",
       pdf : "/pdf/WEEK 2.a(PESE).pdf"
     },
     {
-      week: "WEEK 2.b(PESE).pdf",
+      week: "WEEK 3.(PESE).pdf",
       summary: "How to write resume",
       link: "https://youtube.com/shorts/rbJewiAVSZQ?feature=share",
       pdf: "/pdf/WEEK 2.b(PESE).pdf"
