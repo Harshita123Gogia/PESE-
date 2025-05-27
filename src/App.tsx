@@ -147,7 +147,7 @@ Thank you for your time.`
                 <div className="text-center">
                   <img
                     className="h-32 w-32 rounded-full mx-auto ring-4 ring-[#AA4465]"
-                    src="/img/potr.jpg"
+                    src="/img/photo.jpg"
                     alt="Profile"
                   />
                   <h2 className="mt-4 text-xl font-bold text-[#462255]">Harshita Gogia</h2>
@@ -200,7 +200,7 @@ Thank you for your time.`
                 <div className="mt-4">
                   <h4 className="font-medium text-[#462255]">Graphic Era Hill University (2022–2026)</h4>
                   <p className="text-sm text-[#462255]">B.Tech in Computer Science — CGPA: 7.5/10</p>
-                  <p className="mt-2 text-sm text-[#462255]">
+                  <p className="mt-2 text-sm text-[#010101]">
                   My academic journey includes hands-on experience in Data Structures & Algorithms, Database Management Systems, Cloud Computing, Object-Oriented Programming, and Full-Stack Development, equipping me with a strong foundation in problem-solving and software engineering.
                   </p>
                 </div>
