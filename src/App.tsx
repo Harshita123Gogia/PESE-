@@ -26,7 +26,90 @@ function App() {
   ];
 
   const weeklyLogs = [
-    // ... (keep the weeklyLogs array the same as before)
+    {
+      week: "Week 1.a",
+      summary: "Self introduction based on Sixer Theory",
+      details: [
+        `Hello everyone, my name is Harshita Gogia. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
+
+I have always been passionate about technology, problem-solving, and innovation, and my ultimate aim is to build a career in software development and cloud computing.
+
+I have been actively involved in several projects, including:
+
+- **AWS Cloud Computing Projects:** Worked on hand-on labs and real-world cloud deployment scenarios as part of my AWS certifications.
+- **Blood Bank Management System:** The Blood Bank Management System (BBMS) is a browser-based platform that streamlines blood donation services, inventory management, and donor records while ensuring transparency, efficiency, and corruption-free operations.
+- **Weather Dashboard using React:** This project involves developing a real-time weather application using React.js, Node.js, and a weather API to provide users with up-to-date weather information through a user-friendly interface.
+
+To enhance my technical skills, I have earned the AWS Cloud Quest: Cloud Practitioner certification and completed the AWS Cloud Practitioner Essentials course. These certifications have deepened my understanding of cloud computing, infrastructure, and deployment strategies.
+
+Beyond academics, I am a passionate dancer and an active member of the Dehradun Bhangra Club. I have participated in India's Got Talent auditions and various dance competitions. Additionally, I enjoy playing badminton, athletics, and travelling to spiritual places.
+
+I believe in continuous learning, preserverance, and hard work. I am excited about the opportunities ahead and look forward to contributing my skills and enthusiasm to the field of software development, AI, and cloud computing.
+
+Thank you for your time.`
+      ],
+      link: "https://youtube.com/shorts/d-eHyNb5luk?feature=share",
+      pdf: "/pdf/Week1.a.pdf"
+    },
+    {
+      week: "Week 1.b",
+      summary: "Self introduction based on 5 Ring Theory",
+      details: [
+        `Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
+
+I come from a supportive and loving family that has always encouraged me to work hard and strive for excellence. Their guidance has played a crucial role in shaping my aspirations and values.
+
+My goal is to secure a position in a well-known organization where I can apply my technical knowledge and skills in software developmemt and cloud computing. In the long run, I aim to attain a leadership role in my profession, contributing to technological advancements and innovations.
+
+I believe in dedication, perseverance, and continuous learning, and I am eager to embrace new opportunities that will help me grow both personally and professionally.
+
+Thank you for your time.`
+      ],
+      link: "https://youtube.com/shorts/yxUbfe8mp1c?feature=share",
+      pdf: "/pdf/Week1.b.pdf"
+    },
+    {
+      week: "Week 3",
+      summary: "How to write resume",
+      link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
+      pdf: "/pdf/Week3.pdf"
+    },
+    {
+      week: "Assignment",
+      summary: "Movie Review- Pursuit of Happyness",
+      link: "https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
+      pdf: "/pdf/assignment.pdf"
+    },
+    {
+      week: "Session Summary 1",
+      summary: "Coal Mine Discussion",
+      link:"https://youtube.com/shorts/TA8EffElujM?feature=share",
+      pdf: "/pdf/SessionSummary1.pdf"
+    },
+    {
+      week: "Session Summary 2",
+      summary: "Group Discussion Tricks",
+      link:"https://youtube.com/shorts/VZEulX-heJU?feature=share",
+      pdf: "/pdf/SessionSummary2.pdf"
+    },
+    {
+      week: "Session Summary 3",
+      summary: "Group Discussion Techniques",
+      link:"https://youtube.com/shorts/oAaD9F5Oe7U?feature=share",
+      pdf: "/pdf/SessionSummary3.pdf"
+    },
+    {
+      week: "Personal Interview",
+      summary: "Mock interview preparation and experience",
+      link:"https://youtube.com/shorts/qMY_muHZ3Mk?feature=share",
+      pdf: "/pdf/PersonalInterview.pdf"
+    },
+    {
+      week: "Final Video Log",
+      summary: "Final reflections and future goals",
+      link:"https://youtube.com/shorts/usiVE__37-U?feature=share",
+      pdf: "/pdf/Final.pdf"
+    },
   ];
 
   return (
@@ -41,8 +124,8 @@ function App() {
                   key={section}
                   onClick={() => setActiveSection(section)}
                   className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeSection === section
-                      ? 'border-[#AA4465] text-white'
-                      : 'border-transparent text-[#462255] hover:border-[#FFA69E] hover:text-[#462255]'
+                      ? 'border-[#462255] text-white'
+                      : 'border-transparent text-[#462255] hover:border-[#AA4465] hover:text-[#462255]'
                     }`}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
@@ -64,11 +147,11 @@ function App() {
                 <div className="text-center">
                   <img
                     className="h-32 w-32 rounded-full mx-auto ring-4 ring-[#AA4465]"
-                    src="/img/photo.jpg"
+                    src="/img/potr.jpg"
                     alt="Profile"
                   />
                   <h2 className="mt-4 text-xl font-bold text-[#462255]">Harshita Gogia</h2>
-                  <p className="text-sm text-[#462255]">Software Engineer</p>
+                  <p className="text-sm text-[#93E1D8]">Software Engineer</p>
                 </div>
 
                 <div className="mt-6 space-y-4">
@@ -103,7 +186,7 @@ function App() {
               <div className="flex items-center space-x-3">
                 <FileText className="h-5 w-5 text-[#AA4465]" />
                 <a
-                  href="/pdf/resume.pdf"
+                  href="/pdf/PESERESUME.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[#462255] hover:underline"
@@ -194,7 +277,6 @@ function App() {
             <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
               <h3 className="text-lg font-semibold text-[#462255]">Achievements</h3>
               <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
-                <li>AWS Machine Learning Learning Plan Earned: May 2025.</li>
                 <li>AWS Cloud Quest: Cloud Practitioner-AmazonWeb Services (AWS) Earned: March 2025.</li>
                 <li>AWS Cloud Practitioner Essentials-AmazonWeb Services (AWS) Completed: January 2025.</li>
                 <li>Certificate of Appreciation-Project Showcase Graphic Era Hill University, Nov 2024 Awarded for excellent
@@ -223,7 +305,6 @@ function App() {
                         : <p>{log.details}</p>}
                     </div>
                   )}
-                  {/* Watch Progress Video link */}
                   <a
                     href={log.link}
                     target="_blank"
@@ -233,7 +314,6 @@ function App() {
                     <Youtube className="h-4 w-4 mr-1" />
                     Watch Progress Video
                   </a>
-                  {/* PDF link section added below each week */}
                   <div className="flex items-center space-x-3 mt-2">
                     <FileText className="h-5 w-5 text-[#AA4465]" />
                     <a
