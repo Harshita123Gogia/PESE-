@@ -27,7 +27,7 @@ function App() {
 
   const weeklyLogs = [
     {
-      week: "Week 1.a",
+      week: "WEEK 1(PESE)",
       summary: "Self introduction based on Sixer Theory",
       details: [
         `Hello everyone, my name is Harshita Gogia. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
@@ -49,10 +49,10 @@ I believe in continuous learning, preserverance, and hard work. I am excited abo
 Thank you for your time.`
       ],
       link: "https://youtube.com/shorts/d-eHyNb5luk?feature=share",
-      pdf: "/pdf/Week1.a.pdf"
+      pdf: "/pdf/WEEK1(PESE).pdf"
     },
     {
-      week: "Week 1.b",
+      week: "WEEK 2.a(PESE)",
       summary: "Self introduction based on 5 Ring Theory",
       details: [
         `Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
@@ -66,49 +66,49 @@ I believe in dedication, perseverance, and continuous learning, and I am eager t
 Thank you for your time.`
       ],
       link: "https://youtube.com/shorts/yxUbfe8mp1c?feature=share",
-      pdf: "/pdf/Week1.b.pdf"
+      pdf: "/pdf/WEEK2.a(PESE).pdf"
     },
     {
-      week: "Week 3",
+      week: "WEEK 3.(PESE)",
       summary: "How to write resume",
       link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
-      pdf: "/pdf/Week3.pdf"
+      pdf: "/pdf/WEEK3.(PESE).pdf"
     },
     {
       week: "Assignment",
       summary: "Movie Review- Pursuit of Happyness",
       link: "https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
-      pdf: "/pdf/assignment.pdf"
+      pdf: "/pdf/Assignment.pdf"
     },
     {
       week: "Session Summary 1",
       summary: "Coal Mine Discussion",
       link:"https://youtube.com/shorts/TA8EffElujM?feature=share",
-      pdf: "/pdf/SessionSummary1.pdf"
+      pdf: "/pdf/SessionSummary1(PESE).pdf"
     },
     {
       week: "Session Summary 2",
       summary: "Group Discussion Tricks",
       link:"https://youtube.com/shorts/VZEulX-heJU?feature=share",
-      pdf: "/pdf/SessionSummary2.pdf"
+      pdf: "/pdf/SessionSummary2(PESE).pdf"
     },
     {
       week: "Session Summary 3",
       summary: "Group Discussion Techniques",
       link:"https://youtube.com/shorts/oAaD9F5Oe7U?feature=share",
-      pdf: "/pdf/SessionSummary3.pdf"
+      pdf: "/pdf/SessionSummary3(PESE).pdf"
     },
     {
       week: "Personal Interview",
       summary: "Mock interview preparation and experience",
       link:"https://youtube.com/shorts/qMY_muHZ3Mk?feature=share",
-      pdf: "/pdf/PersonalInterview.pdf"
+      pdf: "/pdf/PersonalInterview(PESE).pdf"
     },
     {
       week: "Final Video Log",
       summary: "Final reflections and future goals",
       link:"https://youtube.com/shorts/usiVE__37-U?feature=share",
-      pdf: "/pdf/Final.pdf"
+      pdf: "/pdf/Final(PESE).pdf"
     },
   ];
 
