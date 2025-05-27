@@ -278,7 +278,6 @@ Thank you for your time.`
               <h3 className="text-lg font-semibold text-[#462255]">Achievements</h3>
               <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
                 <li>AWS Machine Learning Learning Plan Earned: May 2025.</li>
-                <li>AWS Machine Learning Learning Plan Earned: May 2025.</li>
                 <li>AWS Cloud Quest: Cloud Practitioner-AmazonWeb Services (AWS) Earned: March 2025.</li>
                 <li>AWS Cloud Practitioner Essentials-AmazonWeb Services (AWS) Completed: January 2025.</li>
                 <li>Certificate of Appreciation-Project Showcase Graphic Era Hill University, Nov 2024 Awarded for excellent
