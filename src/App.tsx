@@ -84,31 +84,31 @@ Thank you for your time.`
     {
       week: "Session Summary 1",
       summary: "Coal Mine Discussion",
-      link:"https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
+      link:"https://youtube.com/shorts/TA8EffElujM?feature=share",
       pdf: "/pdf/SessionSummary1.pdf"
     },
     {
       week: "Session Summary 2",
       summary: "Group Discussion Tricks",
-      link:"https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
+      link:"https://youtube.com/shorts/VZEulX-heJU?feature=share",
       pdf: "/pdf/SessionSummary2.pdf"
     },
     {
       week: "Session Summary 3",
       summary: "Group Discussion Techniques",
-      link:"https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
+      link:"https://youtube.com/shorts/oAaD9F5Oe7U?feature=share",
       pdf: "/pdf/SessionSummary3.pdf"
     },
     {
       week: "Personal Interview",
       summary: "Mock interview preparation and experience",
-      link:"https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
+      link:"https://youtube.com/shorts/qMY_muHZ3Mk?feature=share",
       pdf: "/pdf/PersonalInterview.pdf"
     },
     {
       week: "Final Video Log",
       summary: "Final reflections and future goals",
-      link:"https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
+      link:"https://youtube.com/shorts/usiVE__37-U?feature=share",
       pdf: "/pdf/Final.pdf"
     },
   ];
@@ -148,7 +148,7 @@ Thank you for your time.`
                 <div className="text-center">
                   <img
                     className="h-32 w-32 rounded-full mx-auto ring-4 ring-[#FF69B4]"
-                    src="/img/potr.jpg"
+                    src="/img/photo.jpg"
                     alt="Profile"
                   />
                   <h2 className="mt-4 text-xl font-bold text-[]">Harshita Gogia</h2>
