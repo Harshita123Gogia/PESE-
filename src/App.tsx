@@ -49,7 +49,7 @@ I believe in continuous learning, preserverance, and hard work. I am excited abo
 Thank you for your time.`
       ],
       link: "https://youtube.com/shorts/d-eHyNb5luk?feature=share",
-      pdf: "/pdf/WEEK1(PESE).pdf"
+      pdf: "/pdf/WEEK 1(PESE).pdf"
     },
     {
       week: "WEEK 2.a(PESE)",
@@ -66,13 +66,13 @@ I believe in dedication, perseverance, and continuous learning, and I am eager t
 Thank you for your time.`
       ],
       link: "https://youtube.com/shorts/yxUbfe8mp1c?feature=share",
-      pdf: "/pdf/WEEK2.a(PESE).pdf"
+      pdf: "/pdf/WEEK 2.a(PESE).pdf"
     },
     {
       week: "WEEK 3.(PESE)",
       summary: "How to write resume",
       link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
-      pdf: "/pdf/WEEK3.(PESE).pdf"
+      pdf: "/pdf/WEEK 3.(PESE).pdf"
     },
     {
       week: "Assignment",
@@ -84,25 +84,25 @@ Thank you for your time.`
       week: "Session Summary 1",
       summary: "Coal Mine Discussion",
       link:"https://youtube.com/shorts/TA8EffElujM?feature=share",
-      pdf: "/pdf/SessionSummary1(PESE).pdf"
+      pdf: "/pdf/Session Summary 1(PESE).pdf"
     },
     {
       week: "Session Summary 2",
       summary: "Group Discussion Tricks",
       link:"https://youtube.com/shorts/VZEulX-heJU?feature=share",
-      pdf: "/pdf/SessionSummary2(PESE).pdf"
+      pdf: "/pdf/Session Summary 2(PESE).pdf" 
     },
     {
       week: "Session Summary 3",
       summary: "Group Discussion Techniques",
       link:"https://youtube.com/shorts/oAaD9F5Oe7U?feature=share",
-      pdf: "/pdf/SessionSummary3(PESE).pdf"
+      pdf: "/pdf/Session Summary 3(PESE).pdf"
     },
     {
       week: "Personal Interview",
       summary: "Mock interview preparation and experience",
       link:"https://youtube.com/shorts/qMY_muHZ3Mk?feature=share",
-      pdf: "/pdf/PersonalInterview(PESE).pdf"
+      pdf: "/pdf/Personal Interview(PESE).pdf"
     },
     {
       week: "Final Video Log",
@@ -186,7 +186,7 @@ Thank you for your time.`
               <div className="flex items-center space-x-3">
                 <FileText className="h-5 w-5 text-[#AA4465]" />
                 <a
-                  href="/pdf/resume.pdf"
+                  href="/pdf/PESE RESUME.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[#462255] hover:underline"
