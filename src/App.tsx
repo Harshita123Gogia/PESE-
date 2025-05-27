@@ -186,7 +186,7 @@ Thank you for your time.`
               <div className="flex items-center space-x-3">
                 <FileText className="h-5 w-5 text-[#AA4465]" />
                 <a
-                  href="/pdf/PESERESUME.pdf"
+                  href="/pdf/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[#462255] hover:underline"
