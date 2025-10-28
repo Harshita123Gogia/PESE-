@@ -4,24 +4,35 @@ import { useState } from 'react';
 function App() {
   const [activeSection, setActiveSection] = useState('about');
 
+  <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
+              <h3 className="text-lg font-semibold text-[#462255]">Experience</h3>
+              <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
+                <li>Revamped legacy web application architecture with a microservices approach using Docker and Kubernetes; achieved a 30% reduction in server costs and a 25% improvement in application uptime.</li>
+                <li>Spearheaded the WordPress platform for Pristique Disposable Products, streamlining product management and improving accessibility across 7+ product segments.</li>
+                <li>Collaborated with cross-functional teams to streamline project workflows, resulting in a 15% reduction in project delivery time while maintaining high standards of web development quality and accessibility.</li>
+              </ul>
+            </div>
+            </div>
+        </section>
+
   const projects = [
     {
+      title: "Toy Language Compiler",
+      description: "Implemented a full-stack compiler featuring lexical analysis, parsing, semantic analysis, optimization, and code generation, alongside an interactive web interface, achieving a 98% pass rate on 110 test cases.",
+      tech: ["Python, Flask, PLY, AST"],
+      stack: ["Python-based Full Stack(Compiler+ Web)"]
+    },
+    {
       title: "Blood Bank Management System",
-      description: "The Blood Bank Management System (BBMS) is a browser-based platform for managing blood donation services, donor records, and inventory efficiently. It ensures transparency, prevents corruption, and simplifies blood bank operations.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      stack: ["React.js"]
+      description: "Built a full-stack Blood Bank Management System with JWT authentication, real-time inventory alerts, and donor-matching algorithm, reducing stockouts by 30% and improving request fulfillment speed by 40%.",
+      tech: ["Django","MySQL","HTML", "CSS"],
+      stack: ["Django Full Stack (Web Development Stack)"]
     },
     {
-      title: "Weather Dashboard using React",
-      description: "The real-time weather application, built with React.js, fetches live weather data from an API and presents it through a user-friendly interface. It utilizes React for the frontend and Node.js for server-side operations.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      stack: ["React.js", "Node.js", "OpenWeatherMap API"]
-    },
-    {
-      title: "Hotel-Management-OOP-Project",
-      description: "The Hotel Management tool efficiently handles customer details, room bookings, food orders, and billing while maintaining records using file handling. It leverages multithreading for parallel execution and implements user-defined exceptions for error handling.",
-      tech: ["Java"],
-      stack: ["Java Swing"]
+      title: "Real-Time Weather Dashboard",
+      description: "Revamped a responsive React.js dashboard with Chart.js visualization and Node.js backend using OpenWeatherMap API, serving 200+ weekly users with under 300ms latency.",
+      tech: ["React.js", "Node.js", "Chart.js"],
+      stack: ["JavaScript Full Stack (Web + Visualization)"]
     }
   ];
 
@@ -199,7 +210,7 @@ Thank you for your time.`
                 <h3 className="text-lg font-semibold text-[#462255]">Education</h3>
                 <div className="mt-4">
                   <h4 className="font-medium text-[#462255]">Graphic Era Hill University (2022–2026)</h4>
-                  <p className="text-sm text-[#462255]">B.Tech in Computer Science — CGPA: 7.5/10</p>
+                  <p className="text-sm text-[#462255]">B.Tech in Computer Science — CGPA: 7.21/10</p>
                   <p className="mt-2 text-sm text-[#010101]">
                   My academic journey includes hands-on experience in Data Structures & Algorithms, Database Management Systems, Cloud Computing, Object-Oriented Programming, and Full-Stack Development, equipping me with a strong foundation in problem-solving and software engineering.
                   </p>
@@ -244,7 +255,7 @@ Thank you for your time.`
                 <div>
                   <h4 className="font-medium text-[#462255]">Languages</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    {['Python', 'JavaScript', 'C/C++', 'SQL', 'Java'].map((skill, index) => (
+                    {['Python(NumPy,Pandas)','HTML/CSS', 'JavaScript(ES6+)', 'C/C++', 'SQL', 'Java(Spring Boot)'].map((skill, index) => (
                       <span key={index} className="px-2 py-1 text-xs font-medium bg-[#AA4465] text-white rounded">
                         {skill}
                       </span>
@@ -252,9 +263,9 @@ Thank you for your time.`
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-medium text-[#462255]">Web Development</h4>
+                  <h4 className="font-medium text-[#462255]">Tools/Frameworks</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    {['React', 'Node.js'].map((skill, index) => (
+                    {['Git/GitHub', 'Docker','React.js','WordPress','VS Code','MySQL','Linux','PyCharm','AWS','Node.js'].map((skill, index) => (
                       <span key={index} className="px-2 py-1 text-xs font-medium bg-[#AA4465] text-white rounded">
                         {skill}
                       </span>
@@ -262,9 +273,9 @@ Thank you for your time.`
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-medium text-[#462255]">Tools</h4>
+                  <h4 className="font-medium text-[#462255]">Concepts</h4>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    {['Git', 'AWS', 'MySQL', 'Linux'].map((skill, index) => (
+                    {['Data Structures & Algorithms','OOP','DBMS','AI/ML','Cloud Computing'].map((skill, index) => (
                       <span key={index} className="px-2 py-1 text-xs font-medium bg-[#AA4465] text-white rounded">
                         {skill}
                       </span>
@@ -275,11 +286,23 @@ Thank you for your time.`
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
+              <h3 className="text-lg font-semibold text-[#462255]">Extracurriular Achievements</h3>
+              <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
+                <li>Top 10 among 200+ teams in Hack-O-Holic 2.0 for AI logistics solution.</li>
+                <li>Designed AWS cloud infrastructure handling 5K+m concurrent users with 99.99% uptime.</li>
+                <li>Mentored 5 junior developers in WeForShe 2024 hackathon (Advanced to Phase 2).</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
               <h3 className="text-lg font-semibold text-[#462255]">Achievements</h3>
               <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
-                <li>AWS Machine Learning Learning Plan Earned: May 2025.</li>
-                <li>AWS Cloud Quest: Cloud Practitioner-AmazonWeb Services (AWS) Earned: March 2025.</li>
-                <li>AWS Cloud Practitioner Essentials-AmazonWeb Services (AWS) Completed: January 2025.</li>
+                <li>Postman API Fundamentals Student Expert | Earned: Aug 06, 2025.</li>
+                <li>Open Source Contributor, GirlScript Summer of Code (GSSoc ’25) & Open Source Connect India |Selected: Jul 31, 2025.</li>
+                <li>AWS Cloud Quest: Cloud Practitioner-AmazonWeb Services (AWS)| Earned: March 2025.</li>
+                <li>AWS Cloud Practitioner Essentials-AmazonWeb Services (AWS)| Completed: January 2025.</li>
                 <li>Certificate of Appreciation-Project Showcase Graphic Era Hill University, Nov 2024 Awarded for excellent
                 performance in the Project Showcase event organized by the Innofusion Club, Research Innovation Cell.</li>
                 <li>Certificate of Participation-Hacker-Ramp WeForShe (2024) Myntra Designs Pvt. Ltd.
