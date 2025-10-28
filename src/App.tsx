@@ -44,7 +44,7 @@ function App() {
       week: "WEEK 1(PESE)",
       summary: "Self introduction based on Sixer Theory",
       details: [
-        "Hello everyone, my name is Harshita Gogia. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.",
+        "Hello everyone, my name is Harshita Gogia. I am currently in my final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.",
         "I have always been passionate about technology, problem-solving, and innovation, and my ultimate aim is to build a career in software development and cloud computing. I have been actively involved in several projects, including:",
         "- **AWS Cloud Computing Projects:** Worked on hand-on labs and real-world cloud deployment scenarios as part of my AWS certifications.",
         "- **Blood Bank Management System:** The Blood Bank Management System (BBMS) is a browser-based platform that streamlines blood donation services, inventory management, and donor records while ensuring transparency, efficiency, and corruption-free operations.",
@@ -61,7 +61,7 @@ function App() {
       week: "WEEK 2.a(PESE)",
       summary: "Self introduction based on 5 Ring Theory",
       details: [
-        "Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.",
+        "Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.",
         "I come from a supportive and loving family that has always encouraged me to work hard and strive for excellence. Their guidance has played a crucial role in shaping my aspirations and values.",
         "My goal is to secure a position in a well-known organization where I can apply my technical knowledge and skills in software developmemt and cloud computing. In the long run, I aim to attain a leadership role in my profession, contributing to technological advancements and innovations.",
         "I believe in dedication, perseverance, and continuous learning, and I am eager to embrace new opportunities that will help me grow both personally and professionally.",
@@ -176,7 +176,7 @@ function App() {
                   <div className="flex items-center justify-center space-x-3">
                     <FileText className="h-5 w-5 text-[#AA4465]" />
                     <a 
-                      href="/pdf/PESE RESUME.pdf" 
+                      href="/pdf/HARSHITA_RESUME.pdf" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-sm font-medium text-[#462255] hover:underline hover:text-[#AA4465] transition-colors"
