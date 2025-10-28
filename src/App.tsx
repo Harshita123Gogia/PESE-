@@ -7,6 +7,14 @@ function App() {
   <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
               <h3 className="text-lg font-semibold text-[#462255]">Experience</h3>
               <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
+                const Windikate Technologies Private Limited = [
+                {
+                  title: "Full Stack Web Developer Intern",
+                  Duration: "July 2025 - Sept 2025",
+                  Location: "Dehradun, Uttarakhand",
+                  Technologies: ["HTML, CSS, JavaScript, React.js, PHP, MySQL, WordPress"]
+                }
+                ];
                 <li>Revamped legacy web application architecture with a microservices approach using Docker and Kubernetes; achieved a 30% reduction in server costs and a 25% improvement in application uptime.</li>
                 <li>Spearheaded the WordPress platform for Pristique Disposable Products, streamlining product management and improving accessibility across 7+ product segments.</li>
                 <li>Collaborated with cross-functional teams to streamline project workflows, resulting in a 15% reduction in project delivery time while maintaining high standards of web development quality and accessibility.</li>
