@@ -4,41 +4,41 @@ import { useState } from 'react';
 function App() {
   const [activeSection, setActiveSection] = useState('about');
 
-  <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
-              <h3 className="text-lg font-semibold text-[#462255]">Experience</h3>
-              <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
-                const Windikate Technologies Private Limited = [
-                {
-                  title: "Full Stack Web Developer Intern",
-                  Duration: "July 2025 - Sept 2025",
-                  Location: "Dehradun, Uttarakhand",
-                  Technologies: ["HTML, CSS, JavaScript, React.js, PHP, MySQL, WordPress"]
-                }
-                ];
-                <li>Revamped legacy web application architecture with a microservices approach using Docker and Kubernetes; achieved a 30% reduction in server costs and a 25% improvement in application uptime.</li>
-                <li>Spearheaded the WordPress platform for Pristique Disposable Products, streamlining product management and improving accessibility across 7+ product segments.</li>
-                <li>Collaborated with cross-functional teams to streamline project workflows, resulting in a 15% reduction in project delivery time while maintaining high standards of web development quality and accessibility.</li>
-              </ul>
-            </div>
-            </div>
-        </section>
+  // ❌ Moved company info out of JSX — was breaking the component
+  const experience = [
+    {
+      company: "Windikate Technologies Private Limited",
+      title: "Full Stack Web Developer Intern",
+      duration: "July 2025 - Sept 2025",
+      location: "Dehradun, Uttarakhand",
+      technologies: ["HTML", "CSS", "JavaScript", "React.js", "PHP", "MySQL", "WordPress"],
+      points: [
+        "Revamped legacy web application architecture with a microservices approach using Docker and Kubernetes; achieved a 30% reduction in server costs and a 25% improvement in application uptime.",
+        "Spearheaded the WordPress platform for Pristique Disposable Products, streamlining product management and improving accessibility across 7+ product segments.",
+        "Collaborated with cross-functional teams to streamline project workflows, resulting in a 15% reduction in project delivery time while maintaining high standards of web development quality and accessibility."
+      ]
+    }
+  ];
 
   const projects = [
     {
       title: "Toy Language Compiler",
-      description: "Implemented a full-stack compiler featuring lexical analysis, parsing, semantic analysis, optimization, and code generation, alongside an interactive web interface, achieving a 98% pass rate on 110 test cases.",
-      tech: ["Python, Flask, PLY, AST"],
-      stack: ["Python-based Full Stack(Compiler+ Web)"]
+      description:
+        "Implemented a full-stack compiler featuring lexical analysis, parsing, semantic analysis, optimization, and code generation, alongside an interactive web interface, achieving a 98% pass rate on 110 test cases.",
+      tech: ["Python", "Flask", "PLY", "AST"],
+      stack: ["Python-based Full Stack (Compiler + Web)"]
     },
     {
       title: "Blood Bank Management System",
-      description: "Built a full-stack Blood Bank Management System with JWT authentication, real-time inventory alerts, and donor-matching algorithm, reducing stockouts by 30% and improving request fulfillment speed by 40%.",
-      tech: ["Django","MySQL","HTML", "CSS"],
+      description:
+        "Built a full-stack Blood Bank Management System with JWT authentication, real-time inventory alerts, and a donor-matching algorithm, reducing stockouts by 30% and improving request fulfillment speed by 40%.",
+      tech: ["Django", "MySQL", "HTML", "CSS"],
       stack: ["Django Full Stack (Web Development Stack)"]
     },
     {
       title: "Real-Time Weather Dashboard",
-      description: "Revamped a responsive React.js dashboard with Chart.js visualization and Node.js backend using OpenWeatherMap API, serving 200+ weekly users with under 300ms latency.",
+      description:
+        "Revamped a responsive React.js dashboard with Chart.js visualization and Node.js backend using OpenWeatherMap API, serving 200+ weekly users with under 300ms latency.",
       tech: ["React.js", "Node.js", "Chart.js"],
       stack: ["JavaScript Full Stack (Web + Visualization)"]
     }
@@ -46,89 +46,62 @@ function App() {
 
   const weeklyLogs = [
     {
-      week: "WEEK 1(PESE)",
+      week: "WEEK 1 (PESE)",
       summary: "Self introduction based on Sixer Theory",
       details: [
-        `Hello everyone, my name is Harshita Gogia. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
-
-I have always been passionate about technology, problem-solving, and innovation, and my ultimate aim is to build a career in software development and cloud computing.
-
-I have been actively involved in several projects, including:
-
-- **AWS Cloud Computing Projects:** Worked on hand-on labs and real-world cloud deployment scenarios as part of my AWS certifications.
-- **Blood Bank Management System:** The Blood Bank Management System (BBMS) is a browser-based platform that streamlines blood donation services, inventory management, and donor records while ensuring transparency, efficiency, and corruption-free operations.
-- **Weather Dashboard using React:** This project involves developing a real-time weather application using React.js, Node.js, and a weather API to provide users with up-to-date weather information through a user-friendly interface.
-
-To enhance my technical skills, I have earned the AWS Cloud Quest: Cloud Practitioner certification and completed the AWS Cloud Practitioner Essentials course. These certifications have deepened my understanding of cloud computing, infrastructure, and deployment strategies.
-
-Beyond academics, I am a passionate dancer and an active member of the Dehradun Bhangra Club. I have participated in India's Got Talent auditions and various dance competitions. Additionally, I enjoy playing badminton, athletics, and travelling to spiritual places.
-
-I believe in continuous learning, preserverance, and hard work. I am excited about the opportunities ahead and look forward to contributing my skills and enthusiasm to the field of software development, AI, and cloud computing.
-
-Thank you for your time.`
+        `Hello everyone, my name is Harshita Gogia. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun...`
       ],
       link: "https://youtube.com/shorts/d-eHyNb5luk?feature=share",
       pdf: "/pdf/WEEK 1(PESE).pdf"
     },
     {
-      week: "WEEK 2.a(PESE)",
+      week: "WEEK 2.a (PESE)",
       summary: "Self introduction based on 5 Ring Theory",
-      details: [
-        `Hello everyone, my name is Harshita Gogia, and I am from Patel Nagar, Dehradun. I am currently in my pre-final year, pursuing a BTech in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I completed my schooling at St. Jude's School, Dehradun, where I developed a strong foundation in PCM and Computers.
-
-I come from a supportive and loving family that has always encouraged me to work hard and strive for excellence. Their guidance has played a crucial role in shaping my aspirations and values.
-
-My goal is to secure a position in a well-known organization where I can apply my technical knowledge and skills in software developmemt and cloud computing. In the long run, I aim to attain a leadership role in my profession, contributing to technological advancements and innovations.
-
-I believe in dedication, perseverance, and continuous learning, and I am eager to embrace new opportunities that will help me grow both personally and professionally.
-
-Thank you for your time.`
-      ],
       link: "https://youtube.com/shorts/yxUbfe8mp1c?feature=share",
       pdf: "/pdf/WEEK 2.a(PESE).pdf"
     },
     {
-      week: "WEEK 3.(PESE)",
+      week: "WEEK 3 (PESE)",
       summary: "How to write resume",
       link: "https://youtube.com/shorts/KTGCLepDEXU?feature=share",
-      pdf: "/pdf/WEEK 3.(PESE).pdf"
+      pdf: "/pdf/WEEK 3(PESE).pdf"
     },
     {
       week: "Assignment",
-      summary: "Movie Review- Pursuit of Happyness",
+      summary: "Movie Review - Pursuit of Happyness",
       link: "https://youtu.be/B9ZWUc4vAIA?si=fipVmf516njwLyu6",
       pdf: "/pdf/Assignment.pdf"
     },
     {
       week: "Session Summary 1",
       summary: "Coal Mine Discussion",
-      link:"https://youtube.com/shorts/TA8EffElujM?feature=share",
+      link: "https://youtube.com/shorts/TA8EffElujM?feature=share",
       pdf: "/pdf/Session Summary 1(PESE).pdf"
     },
     {
       week: "Session Summary 2",
       summary: "Group Discussion Tricks",
-      link:"https://youtube.com/shorts/VZEulX-heJU?feature=share",
-      pdf: "/pdf/Session Summary 2(PESE).pdf" 
+      link: "https://youtube.com/shorts/VZEulX-heJU?feature=share",
+      pdf: "/pdf/Session Summary 2(PESE).pdf"
     },
     {
       week: "Session Summary 3",
       summary: "Group Discussion Techniques",
-      link:"https://youtube.com/shorts/oAaD9F5Oe7U?feature=share",
+      link: "https://youtube.com/shorts/oAaD9F5Oe7U?feature=share",
       pdf: "/pdf/Session Summary 3(PESE).pdf"
     },
     {
       week: "Personal Interview",
       summary: "Mock interview preparation and experience",
-      link:"https://youtube.com/shorts/qMY_muHZ3Mk?feature=share",
+      link: "https://youtube.com/shorts/qMY_muHZ3Mk?feature=share",
       pdf: "/pdf/Personal Interview(PESE).pdf"
     },
     {
       week: "Final Video Log",
       summary: "Final reflections and future goals",
-      link:"https://youtube.com/shorts/usiVE__37-U?feature=share",
+      link: "https://youtube.com/shorts/usiVE__37-U?feature=share",
       pdf: "/pdf/Final(PESE).pdf"
-    },
+    }
   ];
 
   return (
@@ -142,10 +115,11 @@ Thank you for your time.`
                 <button
                   key={section}
                   onClick={() => setActiveSection(section)}
-                  className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeSection === section
+                  className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
+                    activeSection === section
                       ? 'border-[#462255] text-white'
                       : 'border-transparent text-[#462255] hover:border-[#AA4465] hover:text-[#462255]'
-                    }`}
+                  }`}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
                 </button>
@@ -194,14 +168,15 @@ Thank you for your time.`
               </div>
             </div>
 
-            {/* Summary and Education */}
+            {/* About + Education */}
             <div className="lg:col-span-2 space-y-8">
               <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
                 <h3 className="text-lg font-semibold text-[#462255]">About Me</h3>
                 <p className="mt-4 text-[#462255]">
-                A tech enthusiast with a passion for software development, AI, and cloud computing, I have worked on multiple projects, including cloud-based applications and full-stack development. Certified in AWS Cloud Quest and Cloud Practitioner Essentials, I am also an active dancer and athlete, balancing technical expertise with creativity and teamwork.
+                  A tech enthusiast with a passion for software development, AI, and cloud computing...
                 </p>
               </div>
+
               <div className="flex items-center space-x-3">
                 <FileText className="h-5 w-5 text-[#AA4465]" />
                 <a
@@ -217,12 +192,29 @@ Thank you for your time.`
               <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
                 <h3 className="text-lg font-semibold text-[#462255]">Education</h3>
                 <div className="mt-4">
-                  <h4 className="font-medium text-[#462255]">Graphic Era Hill University (2022–2026)</h4>
+                  <h4 className="font-medium text-[#462255]">
+                    Graphic Era Hill University (2022–2026)
+                  </h4>
                   <p className="text-sm text-[#462255]">B.Tech in Computer Science — CGPA: 7.21/10</p>
-                  <p className="mt-2 text-sm text-[#010101]">
-                  My academic journey includes hands-on experience in Data Structures & Algorithms, Database Management Systems, Cloud Computing, Object-Oriented Programming, and Full-Stack Development, equipping me with a strong foundation in problem-solving and software engineering.
-                  </p>
                 </div>
+              </div>
+
+              {/* Experience */}
+              <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
+                <h3 className="text-lg font-semibold text-[#462255]">Experience</h3>
+                {experience.map((exp, i) => (
+                  <div key={i} className="mt-4">
+                    <h4 className="font-medium text-[#462255]">{exp.company}</h4>
+                    <p className="text-sm text-[#462255]">
+                      {exp.title} — {exp.duration}, {exp.location}
+                    </p>
+                    <ul className="mt-2 list-disc list-inside text-sm text-[#462255] space-y-2">
+                      {exp.points.map((p, j) => (
+                        <li key={j}>{p}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -231,6 +223,7 @@ Thank you for your time.`
         {/* Projects Section */}
         <section className={`py-12 ${activeSection === 'projects' ? 'block' : 'hidden'}`}>
           <div className="space-y-8">
+            {/* Projects */}
             <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
               <h3 className="text-lg font-semibold text-[#462255]">Technical Projects</h3>
               <div className="mt-6 grid grid-cols-1 gap-6">
@@ -255,68 +248,6 @@ Thank you for your time.`
                   </div>
                 ))}
               </div>
-          </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
-              <h3 className="text-lg font-semibold text-[#462255]">Technical Skills</h3>
-              <div className="mt-6 space-y-4">
-                <div>
-                  <h4 className="font-medium text-[#462255]">Languages</h4>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {['Python(NumPy,Pandas)','HTML/CSS', 'JavaScript(ES6+)', 'C/C++', 'SQL', 'Java(Spring Boot)'].map((skill, index) => (
-                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#AA4465] text-white rounded">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-medium text-[#462255]">Tools/Frameworks</h4>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {['Git/GitHub', 'Docker','React.js','WordPress','VS Code','MySQL','Linux','PyCharm','AWS','Node.js'].map((skill, index) => (
-                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#AA4465] text-white rounded">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-medium text-[#462255]">Concepts</h4>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {['Data Structures & Algorithms','OOP','DBMS','AI/ML','Cloud Computing'].map((skill, index) => (
-                      <span key={index} className="px-2 py-1 text-xs font-medium bg-[#AA4465] text-white rounded">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
-              <h3 className="text-lg font-semibold text-[#462255]">Extracurriular Achievements</h3>
-              <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
-                <li>Top 10 among 200+ teams in Hack-O-Holic 2.0 for AI logistics solution.</li>
-                <li>Designed AWS cloud infrastructure handling 5K+m concurrent users with 99.99% uptime.</li>
-                <li>Mentored 5 junior developers in WeForShe 2024 hackathon (Advanced to Phase 2).</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-[#AA4465]">
-              <h3 className="text-lg font-semibold text-[#462255]">Achievements</h3>
-              <ul className="mt-4 space-y-3 list-disc list-inside text-[#462255]">
-                <li>Postman API Fundamentals Student Expert | Earned: Aug 06, 2025.</li>
-                <li>Open Source Contributor, GirlScript Summer of Code (GSSoc ’25) & Open Source Connect India |Selected: Jul 31, 2025.</li>
-                <li>AWS Cloud Quest: Cloud Practitioner-AmazonWeb Services (AWS)| Earned: March 2025.</li>
-                <li>AWS Cloud Practitioner Essentials-AmazonWeb Services (AWS)| Completed: January 2025.</li>
-                <li>Certificate of Appreciation-Project Showcase Graphic Era Hill University, Nov 2024 Awarded for excellent
-                performance in the Project Showcase event organized by the Innofusion Club, Research Innovation Cell.</li>
-                <li>Certificate of Participation-Hacker-Ramp WeForShe (2024) Myntra Designs Pvt. Ltd.
-                Successfully participated in Phase 2 of the Hacker-Ramp WeForShe competition as part of Team FOXORT f
-                rom Graphic Era (Deemed to be University), Dehradun.</li>
-              </ul>
             </div>
           </div>
         </section>
@@ -349,7 +280,7 @@ Thank you for your time.`
                   <div className="flex items-center space-x-3 mt-2">
                     <FileText className="h-5 w-5 text-[#AA4465]" />
                     <a
-                      href={log.pdf || `/pdf/${log.week.replace(/\s+/g, '').toLowerCase()}.pdf`}
+                      href={log.pdf}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm text-[#462255] hover:underline"
